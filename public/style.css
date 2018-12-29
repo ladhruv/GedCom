@@ -1,0 +1,128 @@
+.backcolorstatus{
+   background-color:lightgray;
+   font-family: 'Aclonica';
+   font-size: 12px;
+   border: 1px solid rgb(0, 0, 0); 
+}
+.backcolview{
+    background-color:lightblue;
+    font-family: 'Aclonica';
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0); 
+}
+.sizeoftext{
+    height: 200px;
+    font-family: 'Aclonica';font-size: 16px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.desansinfo{
+    height: 300px;
+    width: 460px;
+    background-color: lightblue;
+    font-family: 'Aclonica';font-size: 16px;
+    border: 1px solid rgb(0, 0, 0); 
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.button{
+    background-color: rgb(221, 204, 130);
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-bottom: 3px;
+}
+.butto{
+    background-color: rgb(221, 204, 130);
+    border: 1px solid rgb(0, 0, 0); 
+    margin-left: -1px; 
+    margin-right: 5px;
+    margin-bottom: 3px; 
+}
+
+.maintitle{
+    height: 75px;
+    width: 105%;
+    padding: 15px;   
+    margin-left: -29px; 
+    font-family: 'Aclonica';
+    font-size: 25px;
+    background-color:lightblue;
+    border: 1px solid rgb(0, 0, 0); 
+}
+.buttonlayout{
+    height:55px;
+    padding: 30px;
+    background-color: black;
+}
+.filelist{
+    margin-left: 6px;
+}
+.box {
+    height: 310px;
+    border: 1px solid rgb(0, 0, 0); 
+    margin: 5px;
+    width: 99%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+.clearbutton{
+    background-color: rgb(221, 204, 130);
+    border: 1px solid rgb(0, 0, 0); 
+    margin-left: 1043px;  
+    margin-bottom: 5px;
+}
+th{
+    font-weight: Arial;
+}
+input[type="file"] {
+    display: none;
+}
+h3 {
+    color:black;
+    text-align: left;
+    padding: 18px;
+    font-family: 'Aclonica';font-size: 25px;
+}
+
+.accordion {
+    background-color:lightgrey;
+    color:black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0); 
+    text-align: left;
+    outline: none;
+    font-family: 'Aclonica';font-size: 25px;
+    transition: 0.4s;
+}
+#fileselector {
+    margin: 0px; 
+}
+#upload-file-selector {
+    display:none;   
+}
+.margin-correction {
+    margin-right: 0px;   
+}
+.panel {
+    padding: 18px;
+    display: none;
+    background-color:white;
+    overflow: hidden;
+}
+.accordion:after {
+    content: '\002B';
+    color: black;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+body {
+    background-color: rgb(248, 247, 180) !important;
+}
